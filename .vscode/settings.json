@@ -1,0 +1,7 @@
+{
+	"[typescript]": {
+		"editor.formatOnType": true,
+		"editor.formatOnSave": true
+	},
+	"jest.jestCommandLine": "npm test --"
+}
