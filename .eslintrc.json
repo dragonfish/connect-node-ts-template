@@ -6,10 +6,8 @@
 	},
 	"extends": [
 		"eslint:recommended",
-		"airbnb-base",
 		"plugin:@typescript-eslint/strict-type-checked",
 		"plugin:@typescript-eslint/stylistic-type-checked",
-		"airbnb-typescript/base",
 		"plugin:jest/recommended",
 		"plugin:prettier/recommended" //comment this if you want to disable prettier.
 		//"prettier" //Uncomment this if you want to disable prettier. useful for example when using vscode prettier or trunk.io
@@ -20,7 +18,7 @@
 		"sourceType": "module",
 		"project": ["**/tsconfig.json"]
 	},
-	"plugins": ["@typescript-eslint", "jest"],
+	"plugins": ["@typescript-eslint", "prettier", "jest"], // remove prettier if you want to disable prettier. useful for example when using vscode prettier or trunk.io
 	"rules": {
 		"no-console": ["warn", { "allow": ["info", "warn", "error"] }],
 		"@typescript-eslint/no-non-null-assertion": "off",
