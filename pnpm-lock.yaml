@@ -7,13 +7,13 @@ settings:
 dependencies:
   '@bufbuild/connect':
     specifier: ^0.13.0
-    version: 0.13.0(@bufbuild/protobuf@1.6.0)
+    version: 0.13.0(@bufbuild/protobuf@1.7.0)
   '@bufbuild/connect-node':
     specifier: ^0.13.0
-    version: 0.13.0(@bufbuild/protobuf@1.6.0)
+    version: 0.13.0(@bufbuild/protobuf@1.7.0)
   '@bufbuild/protobuf':
-    specifier: ^1.6.0
-    version: 1.6.0
+    specifier: ^1.7.0
+    version: 1.7.0
   firebase-admin:
     specifier: ^12.0.0
     version: 12.0.0
@@ -463,27 +463,27 @@ packages:
     resolution: {integrity: sha512-0hYQ8SB4Db5zvZB4axdMHGwEaQjkZzFjQiN9LVYvIFB2nSUHW9tYpxWriPrWDASIxiaXax83REcLxuSdnGPZtw==}
     dev: true
 
-  /@bufbuild/connect-node@0.13.0(@bufbuild/protobuf@1.6.0):
+  /@bufbuild/connect-node@0.13.0(@bufbuild/protobuf@1.7.0):
     resolution: {integrity: sha512-l9tYVWTD9qdVr3PD8iTLmJZoWQY4bYl4UXIyKqvNuqoaAm3pZZvrQXrz0ptS5NRWTVUKPV9DZp6Wbbch5/u55Q==}
     engines: {node: '>=16.0.0'}
     peerDependencies:
       '@bufbuild/protobuf': ^1.2.1
     dependencies:
-      '@bufbuild/connect': 0.13.0(@bufbuild/protobuf@1.6.0)
-      '@bufbuild/protobuf': 1.6.0
+      '@bufbuild/connect': 0.13.0(@bufbuild/protobuf@1.7.0)
+      '@bufbuild/protobuf': 1.7.0
       headers-polyfill: 3.2.1
     dev: false
 
-  /@bufbuild/connect@0.13.0(@bufbuild/protobuf@1.6.0):
+  /@bufbuild/connect@0.13.0(@bufbuild/protobuf@1.7.0):
     resolution: {integrity: sha512-eZSMbVLyUFtXiZNORgCEvv580xKZeYQdMOWj2i/nxOcpXQcrEzTMTA7SZzWv4k4gveWCOSRoWmYDeOhfWXJv0g==}
     peerDependencies:
       '@bufbuild/protobuf': ^1.2.1
     dependencies:
-      '@bufbuild/protobuf': 1.6.0
+      '@bufbuild/protobuf': 1.7.0
     dev: false
 
-  /@bufbuild/protobuf@1.6.0:
-    resolution: {integrity: sha512-hp19vSFgNw3wBBcVBx5qo5pufCqjaJ0Cfk5H/pfjNOfNWU+4/w0QVOmfAOZNRrNWRrVuaJWxcN8P2vhOkkzbBQ==}
+  /@bufbuild/protobuf@1.7.0:
+    resolution: {integrity: sha512-jIsRadRsyxf6ERBU1auY2c1k3doFdqh15F4HRZs4BELVuBtpN+3ipkXqcsWE+rD+EQNigeR29SfQ+ES6UX/jGg==}
     dev: false
 
   /@cspotcode/source-map-support@0.8.1:
